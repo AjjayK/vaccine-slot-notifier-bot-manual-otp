@@ -141,7 +141,7 @@ async def on_message(message):
   
   if message.content == "Help":
       author = message.author
-      await post_outputs(f"To know latest vaccine slot availbility status, send \"Slots\" Private {author}")
+      await post_outputs(f"To know latest vaccine slot availability status, send \"Slots\" Private {author}")
       
   if message.content == "Start":
       if str(message.author) == "SaarapPaambu#0534":
