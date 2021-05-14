@@ -18,6 +18,6 @@
  - **Slots** - To know latest vaccine slot availability status 
  
  ### Post Script
- This is the first application I have ever created. xD. Help me improve coding skils
+ This is the first application I have ever created. xD. Help me improve coding skills
  
  If anyone wishes to improve this bot, let us discuss. My discord user name *SaarapPaambu#0534*
