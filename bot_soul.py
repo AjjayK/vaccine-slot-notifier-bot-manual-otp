@@ -27,7 +27,7 @@ async def slot_finder():
             
             fields = ["name","block_name","pincode","lat","long","date","min_age_limit","available_capacity","vaccine"]
             flat_data = df[fields]
-            select_data = flat_data[(flat_data.min_age_limit > 18) & (flat_data.available_capacity > 0)]
+            select_data = flat_data[(flat_data.min_age_limit == 18) & (flat_data.available_capacity > 0)]
             fields = ["name", "block_name","pincode","date","available_capacity", "vaccine"]
             
             select_data = select_data[fields]
